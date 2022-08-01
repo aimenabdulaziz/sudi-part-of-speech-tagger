@@ -26,8 +26,8 @@ Train the model
 sudi.train("tagsPathName", "sentencesPathName");
 ```
 where:
-- tagsPathName is location of the tags file 
-- sentencesPathName is location of the sentences file
+- `tagsPathName` is location of the tags file 
+- `sentencesPathName` is location of the sentences file
 
 (Optional)
 If you want to compare the result from the model with the correct tags, follow the following format:
@@ -35,8 +35,8 @@ If you want to compare the result from the model with the correct tags, follow t
 sudi.accuracyTest("testTagPath", "testSentencePath");
 ```
 where:
-- testTagPath is location of the test tags file 
-- testSentencePath is location of the test sentences file
+- `testTagPath` is location of the test tags file 
+- `testSentencePath` is location of the test sentences file
 ## Assumptions
 - "#" is the tag "before" the start of each sentence.
 
@@ -45,7 +45,7 @@ To start interactive console test:
 consoleViterbiTest();
 ```
 
-To close the console test, send "exit" on the command line.
+To close the console test, send `exit` on the command line:
 ```java
 exit
 ```
