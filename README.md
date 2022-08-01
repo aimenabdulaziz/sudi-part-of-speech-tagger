@@ -30,7 +30,7 @@ where:
 - `sentencesPathName` is location of the sentences file
 
 (Optional)
-If you want to compare the result from the model with the correct tags, follow the following format:
+If you want to compare the result produced by the model with the correct tags, follow the following format:
 ```java
 sudi.accuracyTest("testTagPath", "testSentencePath");
 ```
